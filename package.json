@@ -1,7 +1,21 @@
 {
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://unsualhugo.github.io/planilha",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "lucide-react": "^0.479.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
